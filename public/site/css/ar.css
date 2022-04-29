@@ -1,0 +1,135 @@
+body{
+    direction: rtl;
+    text-align: right;
+}
+header .logo a{
+    margin-right: unset;
+    margin-left: 40px;
+}
+.nav-option ul li:not(:last-of-type){
+    margin-right: unset;
+    margin-left: 15px;
+}
+.lang-div{
+    right: unset;
+    left: -300px;
+}
+.open-langdiv{
+    right: unset;
+    left: 0;
+}
+.lang-over{
+    left: unset;
+    right: 0;
+}
+.close-lang{
+    left: unset;
+    right: 15px;
+}
+.lang-div ul:first-of-type li:first-of-type{
+    padding-left:10px;
+    padding-right: unset;
+}
+.lang-div ul:first-of-type li:first-of-type::after{
+    right: unset;
+    left: 0;
+}
+.sign-modal .modal-body::after{
+    left:unset;
+    right:-15px;
+}
+.feature-pro .pro-cart .discount{
+    left: unset;
+    right: 10px;
+}
+.dropdown .dropdown-menu{
+    left: 0!important;
+    right: unset;
+    transform: translate3d(0px, 27px, 0px)!important;
+}
+.del-cart{
+    left: 10px;
+    right: unset;
+}
+.cart-detail-product p{
+    text-align: right;
+}
+.cart-detail .price{
+    margin-left: 10px;
+    margin-right: unset;
+}
+.my-order .order-item .stat{
+    right: unset;
+    left: 10px;
+}
+.my-order .order-item .order-img .img:not(:last-of-type){
+    margin-right: unset;
+    margin-left: 10px;
+}
+.page-cat .cats-link,
+.cats-link{
+    display: flex;
+}
+.cart-table::after{
+    right: unset;
+    left: -15px;
+}
+
+.edit-acc{
+    right: unset;
+    left: 10px;
+}
+.cart-table .prod-td img,
+.search-result p{
+    margin-right: unset;
+    margin-left: 5px;
+}
+.cart-table .prod-td .info,
+.user-drop.dropdown .dropdown-menu a{
+    text-align: right;
+}
+.user-drop.dropdown .dropdown-menu a i{
+    margin-left: 10px;
+    margin-right: unset;
+}
+.filter-links ul li:not(:last-of-type){
+    margin-right:unset;
+    margin-left: 25px;
+}
+.filter-values ul li:not(:last-of-type){
+    margin-right: unset;
+    margin-left: 10px;
+}
+.filter-values .remove-v{
+    padding-right: unset;
+    padding-left: 10px;
+}
+@media(max-width:991px){
+    header nav.site-nav{
+        left:unset;
+        right: 0;
+        transform: translateX(100%);
+    }
+    header nav ul li{
+        padding-left: 20px;
+        padding-right: 0;
+        text-align: right;
+        margin-right: 20px;
+    }
+    .dropdown .dropdown-menu a{
+        display: block;
+    }
+    header .logo a {
+        margin-left: unset;
+        margin-right: 40px;
+    }
+    .mob-collaps{
+        right:15px;
+        left: unset;
+    }
+}
+@media (max-width: 368px){
+.dropdown .dropdown-menu {
+    transform: translate3d(-85px, 33px, 0) !important;
+}
+}
